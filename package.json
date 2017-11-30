@@ -1,0 +1,34 @@
+{
+  "name": "konker-binary-services",
+  "version": "1.0.0",
+  "description": "Node applications tha serves and serialize/deserialize MessagePack, CBOR and  BSON.",
+  "main": "server.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KonkerLabs/konker-binary-services.git"
+  },
+  "keywords": [
+    "MessagePack",
+    "CBOR",
+    "BSON",
+    "binary"
+  ],
+  "author": "Erico Netto",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/KonkerLabs/konker-binary-services/issues"
+  },
+  "homepage": "https://github.com/KonkerLabs/konker-binary-services#readme",
+  "dependencies": {
+    "body-parser": "1.18.2",
+    "bson": "1.0.4",
+    "cbor": "3.0.3",
+    "concat-stream": "1.6.0",
+    "express": "4.16.2",
+    "express-conditional-middleware": "2.0.0",
+    "msgpack": "1.0.2"
+  }
+}
