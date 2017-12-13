@@ -52,6 +52,10 @@ git clone https://github.com/KonkerLabs/konker-binary-services
 cd konker-binary-services
 npm install
 ```
+If you having errors, try this:
+```sh
+npm rebuild
+```
 ## Start
 
 ```sh
