@@ -61,3 +61,7 @@ if you are getting errors, try this:
 ```sh
 npm rebuild
 ```
+And then
+```sh
+npm start
+```
