@@ -5,6 +5,7 @@
 // CBOR -> JSON
 // JSON -> CBOR
 //
+//
 // BSON -> JSON
 // JSON -> BSON
 
@@ -56,7 +57,7 @@ app.use(conditional(
     }));
 }));
 
-testJSON={'text': 'text','list': ['example', 'message'],'boolean': true, 'integer': 123, 'nest':{'one':'bird'}};
+testJSON= {'name':'earth', 'planet':true, 'number': 3, 'gravity': 9.807};
 
 //START LISTENING
 app.listen(3000, () => console.log('Binary endpoints listening on port 3000!'))
