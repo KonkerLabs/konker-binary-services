@@ -33,7 +33,7 @@ Node.js services that convert CBOR, MessagePack and BSON  to JSON and vice-versa
  
   
  ## BSON
- GET BSON \<this-server-adress\>:3000/msgpack
+ GET BSON \<this-server-adress\>:3000/BSON
  
     RESPONSE is a BSON encoded JSON {'name':'earth', 'planet':true, 'number': 3, 'gravity': 9.807}
  
